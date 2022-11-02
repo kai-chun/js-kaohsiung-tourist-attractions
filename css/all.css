@@ -1,0 +1,232 @@
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* setting of header */
+
+header {
+    width: 1024px;
+    background-image: url(../img/Hero.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+header h1{
+    font-size: 40px;
+    color: white;
+    padding: 90px 0;
+}
+
+header select {
+    width: 450px;
+    padding: 12px 10px;
+    appearance: none;
+    font-size: 18px;
+    background: url(../img/icons_down.png) no-repeat 95% center rgba(255,255,255,0.7);
+    border: 3px solid #fff;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+.popularAreas {
+    width: 800px;
+    margin: 80px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px;
+
+}
+
+.popularAreas p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 21px;
+    padding: 20px 26px;
+}
+
+.popularAreas ul {
+    display: flex;
+    margin-left: 51px;
+}
+
+.popularAreas li {
+    margin: 0 18px 23px;
+}
+
+.popularAreas li a {
+    display: block;
+    padding: 11px 34px;
+    color: white;
+    border-radius: 5px;
+}
+
+.popularAreas .zip802 {
+    background-color: #8A82CC;
+}
+
+.popularAreas .zip807 {
+    background-color: #FFA782;
+}
+
+.popularAreas .zip800 {
+    background-color: #F5D005;
+}
+
+.popularAreas .zip803 {
+    background-color: #559AC8;
+}
+
+/* setting of content */
+
+.content {
+    margin: 50px auto 0 auto;
+    border-top: 1px dashed #559AC8;
+    position: relative;
+}
+
+.goDown {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: -12px;
+    left: 49%;
+    background-color: white;
+}
+
+.title {
+    font-size: 36px;
+    color: #585858;
+    margin-top: 76px;
+    text-align: center;
+}
+
+.title.zip802 {
+    color: #8A82CC;
+}
+
+.title.zip807 {
+    color: #FFA782;
+}
+
+.title.zip800 {
+    color: #F5D005;
+}
+
+.title.zip803 {
+    color: #559AC8;
+}
+
+.attractionList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.attractionList > li {
+    width: 464px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px;
+    margin: 0 16px 36px 16px;
+}
+
+.attractionList > li:hover {
+    margin-top: -5px;
+    border-bottom: 5px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 5px;
+}
+
+.attractionList > li > img {
+    width: 464px;
+    height: 155px;
+    object-fit: cover;
+}
+
+.attractionTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: white;
+    position: absolute;
+    top: 107px;
+    left: 20px;
+    right: 24px;
+}
+
+.attractionTitle h3 {
+    font-size: 24px;
+}
+
+.attractionInfo li {
+    display: flex;
+    align-items: center;
+    margin: 16px 23px;
+}
+
+.attractionInfo div {
+    width: 18px;
+    text-align: center;
+    margin-right: 9px;
+}
+
+.attractionList span {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 19px;
+    right: 24px;
+}
+
+.attractionList span img {
+    margin-right: 8px;
+}
+
+/* setting of footer */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.pagination a {
+    display: block;
+    margin: 0 12px;
+    color: #4A4A4A;
+}
+
+.pagination .currentPage {
+    color: #559AC8;
+}
+
+/* setting of footer */
+
+footer {
+    background-color: #559AC8;
+    text-align: center;
+    padding: 24px 0;
+}
+
+footer p {
+    font-size: 14px;
+    color: white;
+}
+
+.dataSrc {
+    margin-top: 15px;
+    color:#FFD366;
+}
+
+.goTop {
+    position: fixed;
+    right: 200px;
+    bottom: 100px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高雄旅遊資訊</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <h1>高雄旅遊資訊</h1>
+            <select name="areaSelect" id="areaSelect">
+                <option value="default" selected>-- 請選擇行政區 --</option>
+            </select>
+            <div class="popularAreas">
+                <p>熱門行政區</p>
+                <ul>
+                    <li><a class="zip802" href="#">苓雅區</a></li>
+                    <li><a class="zip807" href="#">三民區</a></li>
+                    <li><a class="zip800" href="#">新興區</a></li>
+                    <li><a class="zip803" href="#">鹽埕區</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="content">
+            <img class="goDown" src="img/icons_goDown.png" alt="go down">
+            <h2 class="title">高雄市</h2>
+            <ul class="attractionList">
+                <li>
+                    <img src="https://khh.travel/content/images/Attractions/37583/640x480_attractions-image-a90cfntnke2bxkhey-qprg.jpg" alt="#">
+                    <div class="attractionTitle">
+                        <h3>高雄願景館</h3>
+                        <p>三民區</p>
+                    </div>
+                    <ul class="attractionInfo">
+                        <li>
+                            <div><img src="img/icons_clock.png" alt="open time"></div>
+                            週二至週日10:00-18:00，每週一公休
+                        </li>
+                        <li>
+                            <div><img src="img/icons_pin.png" alt="address"></div>
+                            高雄市三民區建國二路318號
+                        </li>
+                        <li>
+                            <div><img src="img/icons_phone.png" alt="tel"></div>
+                            886-7-2363357
+                        </li>
+                    </ul>
+                    <span>
+                        <img src="img/icons_tag.png" alt="ticket info"> 免費參觀
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="pagination">
+            <a class="currentPage" href="#">1</a>
+            <a href="#">2</a>
+        </div>
+        <footer>
+            <p>高雄旅遊網</p>
+            <p class="dataSrc">資料來源：高雄市政府</p>
+        </footer>
+        <a href="#" class="goTop"><img src="img/btn_goTop.png" alt="go top"></a>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/all.js"></script>
+</body>
+</html>
